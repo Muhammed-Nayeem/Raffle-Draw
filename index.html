@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raffle Draw Project</title>
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+
+  <body>
+    <section class="main-area">
+      <div class="container">
+        <main class="raffle-box" id="main-box">
+          <div class="right-side">
+            <div class="group-A">
+              <label for="names">Enter All The Names:</label>
+              <textarea name="names" id="names" cols="30" rows="10"></textarea>
+            </div>
+            <div class="group-B">
+              <button id="show-list">Show Names</button>
+              <ul id="show-names-list"></ul>
+            </div>
+          </div>
+          <div class="left-side">
+            <div class="group-C">
+              <label for="">Output Display:</label>
+              <div class="output-display">
+                <h2 id="display">Display</h2>
+              </div>
+              <button id="give-try">Give A Try</button>
+            </div>
+            <div class="group-D">
+              <ul class="winner-list">
+                <li class="winner-list-item">
+                  First-Position: <span id="firstPosition"></span>
+                </li>
+                <li class="winner-list-item">
+                  Second-Position: <span id="secondPosition"></span>
+                </li>
+                <li class="winner-list-item">
+                  Third-Position: <span id="thirdPosition"></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+
+    <!-- JavaScript File Linking -->
+    <script src="app.js"></script>
+  </body>
+</html>
