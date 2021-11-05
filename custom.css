@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-area {
+  padding: 20px 10px;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.raffle-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.raffle-box .right-side,
+.raffle-box .left-side {
+  width: 47%;
+  margin-right: 15px;
+}
+.group-A,
+.group-C {
+  width: 100%;
+  padding: 10px;
+}
+.group-A label,
+.group-C label {
+  display: block;
+  font-size: 20px;
+  color: forestgreen;
+  margin-bottom: 6px;
+}
+.group-A textarea,
+.group-C .output-display {
+  width: 100%;
+  border: 1px solid #eee;
+  padding: 8px;
+}
+.group-B {
+  width: 100%;
+  padding: 10px;
+}
+.group-B button {
+  background-color: #4242f8;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.group-B ul {
+  display: none;
+}
+.group-B ul,
+.group-D .winner-list {
+  list-style-type: none;
+  margin: 25px 0;
+  border: 1px solid #eee;
+  padding: 15px;
+}
+.group-B ul .list-items,
+.group-D .winner-list .winner-list-item {
+  border: 1px solid #eee;
+  padding: 10px;
+  font-size: 18px;
+}
+.group-C .output-display {
+  background-color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+.output-display h2 {
+  color: #333;
+  font-size: 22px;
+}
+.group-C button {
+  background-color: green;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 25px;
+  font-size: 16px;
+  margin: 20px auto;
+  display: block;
+}
